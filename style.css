@@ -155,6 +155,7 @@ background-size: 0%;
 #ms{
     position: absolute;
     width: 1040px;
+    height: fit-content;
     margin-top: 700px;
     margin-bottom: 100px;
 
