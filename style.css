@@ -6,6 +6,7 @@
     font-weight: 600;
     font-style: normal;
   }
+  /* banner section */
   header{
     margin-bottom: 100px;
   }
@@ -34,7 +35,7 @@ background-position: 0% 0%;
 margin-top: 50px;
 }
 .frame{
-    /* Frame 4 */
+
 position: absolute;
 width: 1110px;
 height: 581px;
@@ -42,7 +43,7 @@ left: 221px;
 right: 221px;
 top: 157px;
 bottom: 4507px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -72,16 +73,13 @@ text-align: center;
 opacity: 0.7;
 }
 .bl{
-    /* Frame 2 */
 position: static;
 width: 244px;
 height: 65px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -89,13 +87,7 @@ margin: 24px 0px;
 }
 #b2{
     position: static;
-width: 196px;
-color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: bold;
-line-height: 12px;
-letter-spacing: 0%;
-text-align: center;
+width: 233px;
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
 
@@ -105,14 +97,21 @@ order: 0;
 flex-grow: 0;
 margin: 0px 10px;
 }
+#link{
+    color: white;
+    font-size: 18px;
+font-weight: bold;
+line-height: 12px;
+text-align: center;
+text-decoration: none;
+}
 .bl1{
-    /* Frame 2 */
+
 position: absolute;
 width: 244px;
 height: 57px;
 left: 1046px;
 top: 38px;
-/* Auto layout */
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -147,11 +146,9 @@ border-radius: 8px;
 box-sizing: border-box;
 background-color: transparent;
 cursor: pointer;
-background-size: 0%;
-            background-image: linear-gradient(to right, blueviolet, #ffc9bc);
-            transition: all 0.5s ease;
 
 }
+/* Why web development? */
 #ms{
     position: absolute;
     width: 1040px;
@@ -202,7 +199,7 @@ display: flex;
 flex-direction: row-reverse;
 padding: 58px;;
 border-radius: 16px;
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+background: linear-gradient(90.00deg, rgba(255, 255, 255, 0),rgb(255, 255, 255) 100%);
 padding-bottom: 0%;;
 }
 .dpart2{
@@ -236,6 +233,9 @@ font-weight: 600;
 line-height: 19px;
 letter-spacing: 0%;
 text-align: center;
+background-size: 0%;
+background-image: linear-gradient(to right, blueviolet, #ffc9bc);
+transition: all 0.5s ease;
 }
 .p2d{
     color: rgb(13, 19, 33);
@@ -246,7 +246,7 @@ letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
 }
-
+/* Inspiration section */
 #ms2{
 position: absolute;
 width: 1140px;
@@ -283,14 +283,14 @@ iframe{
     opacity: 0.7;
     width: 1040px;
 }
+/* Current Target Section */
 #ms3{
-    /* Frame 26 */
+
 position: absolute;
 left: 230px;
 right: 150px;
 top: 3200px;
 bottom: 418px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -341,13 +341,13 @@ letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
 }
+/* Next Target Section */
 #ms4{
     position: absolute;
 left: 230px;
 right: 150px;
 top: 3799px;
 bottom: 418px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -380,6 +380,7 @@ background: rgb(255, 255, 255);
     gap: 20px;
     width: 1095px;
 }
+/* I Need Support Section */
 #inputbox{
     max-width: 1140px;
 }
@@ -401,6 +402,7 @@ background: rgb(255, 255, 255);
     border-radius: 16px;
     text-align: center;
     border-radius: 16px;
+    gap: 5px;
     
 }
 .p4{
@@ -422,11 +424,12 @@ background: rgb(255, 255, 255);
     border: 2px;
     border-radius: 5px;
 }
+/* footer section */
 #footer{
-    /* Frame 21 */
+
 position: absolute;
-width: 1000px;
-height: 100px;
+width: 1080px;
+height: 83px;
 left: 0;
 top: 5145px;
 display: flex;
@@ -434,7 +437,7 @@ justify-content: space-between;
 align-items: center;
 margin-top: 50px;
 margin-bottom: 50px;
-margin-left: 270px;
+margin-left: 240px;
 margin-right: 150px;
 color: rgb(13, 19, 33);
 font-size: 14px;
@@ -442,8 +445,9 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+background-color: rgba(43, 43, 47, 0.041);
+border-radius: 8px;
 }
-
 span{
     display: flex;
     gap: 30px;
